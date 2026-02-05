@@ -1,0 +1,32 @@
+import type { VitePWAOptions } from 'vite-plugin-pwa'
+
+export const pwaConfig: Partial<VitePWAOptions> = {
+  registerType: 'autoUpdate',
+  includeAssets: ['favicon.svg'],
+  manifest: {
+    name: 'Aric Notes',
+    short_name: 'Aric Notes',
+    description: '个人开发笔记',
+    theme_color: '#3eaf7c',
+    background_color: '#ffffff',
+    display: 'standalone',
+    icons: [
+      {
+        src: '/pwa-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'any maskable'
+      },
+      {
+        src: '/pwa-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any maskable'
+      }
+    ]
+  },
+  workbox: {
+    globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+    navigateFallback: null
+  }
+}
