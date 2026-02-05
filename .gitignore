@@ -14,5 +14,6 @@ package-lock.json
 
 # python cache
 __pycache__
-.vitepress/cache/*
+.vitepress/cache/
+.vitepress/temp/
 .vitepress/dist
