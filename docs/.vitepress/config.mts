@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { enSidebar, zhSidebar } from './sidebar/index'
 
 export default defineConfig({
+  base: process.env.VITEPRESS_BASE || '/',
   head: [['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]],
   title: 'Aric Notes',
   description: 'Personal Notes',
