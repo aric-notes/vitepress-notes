@@ -4,11 +4,7 @@
 
 ## 基础用法
 
-```tsx
-import { Button } from '@/components/button'
-
-<Button>点击我</Button>
-```
+<<< ./button-code.tsx#basic-usage
 
 ## 类型
 
