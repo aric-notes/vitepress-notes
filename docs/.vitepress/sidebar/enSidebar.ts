@@ -1,33 +1,33 @@
 export const enSidebar = {
-  '/posts/components/': [
+  '/en/posts/components/': [
     {
       text: 'Components',
       items: [
-        { text: 'Introduction', link: '/posts/components/index.md' }
+        { text: 'Introduction', link: '/en/posts/components/index.md' }
       ]
     }
   ],
-  '/posts/hooks/': [
+  '/en/posts/hooks/': [
     {
       text: 'Hooks',
       items: [
-        { text: 'Introduction', link: '/posts/hooks/index.md' }
+        { text: 'Introduction', link: '/en/posts/hooks/index.md' }
       ]
     }
   ],
-  '/posts/utils/': [
+  '/en/posts/utils/': [
     {
       text: 'Utils',
       items: [
-        { text: 'Introduction', link: '/posts/utils/index.md' }
+        { text: 'Introduction', link: '/en/posts/utils/index.md' }
       ]
     }
   ],
-  '/posts/standard/': [
+  '/en/posts/standard/': [
     {
       text: 'Standard',
       items: [
-        { text: 'Introduction', link: '/posts/standard/index.md' },
+        { text: 'Introduction', link: '/en/posts/standard/index.md' },
         {
           text: 'React',
           collapsed: false,
@@ -46,11 +46,11 @@ export const enSidebar = {
       ]
     }
   ],
-  '/posts/incidents/': [
+  '/en/posts/incidents/': [
     {
       text: 'Incident Postmortem',
       items: [
-        { text: 'Introduction', link: '/posts/incidents/index.md' }
+        { text: 'Introduction', link: '/en/posts/incidents/index.md' }
       ]
     }
   ]

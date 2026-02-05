@@ -1,7 +1,7 @@
-# Utility Functions
+# 工具函数
 
-This section contains useful JavaScript utility functions.
+本部分包含实用的 JavaScript 工具函数。
 
-## Introduction
+## 介绍
 
-Here you will find various utility functions for common programming tasks.
+这里你可以找到用于常见编程任务的各种工具函数。

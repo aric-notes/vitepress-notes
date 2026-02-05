@@ -1,7 +1,7 @@
-# Components
+# 组件
 
-This section contains reusable React components.
+本部分包含可复用的 React 组件。
 
-## Introduction
+## 介绍
 
-Here you will find various React components that can be used in your projects.
+这里你可以找到在各种项目中使用的 React 组件。

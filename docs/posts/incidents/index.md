@@ -1,7 +1,7 @@
-# Incident Postmortem
+# 事故分析
 
-This section contains incident analysis and postmortem reports.
+本部分包含事故分析和事后报告。
 
-## Introduction
+## 介绍
 
-Here you will find detailed analysis of various production incidents and lessons learned.
+这里你可以找到各种生产事故的详细分析和经验教训。

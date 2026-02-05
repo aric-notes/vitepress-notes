@@ -1,7 +1,7 @@
 # React Hooks
 
-This section contains custom React hooks.
+本部分包含自定义 React Hooks。
 
-## Introduction
+## 介绍
 
-Here you will find various custom React hooks for common use cases.
+这里你可以找到用于常见场景的自定义 React Hooks。

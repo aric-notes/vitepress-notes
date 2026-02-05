@@ -1,7 +1,7 @@
-# Development Standards
+# 开发规范
 
-This section contains development standards and best practices.
+本部分包含开发规范和最佳实践。
 
-## Introduction
+## 介绍
 
-Here you will find coding standards, Git workflows, and other development guidelines.
+这里你可以找到编码规范、Git 工作流和其他开发指南。
