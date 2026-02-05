@@ -1,5 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { enSidebar, zhSidebar } from './sidebar/index'
+import dotenv from 'dotenv'
+
+// Load .env file from project root
+dotenv.config()
 
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',

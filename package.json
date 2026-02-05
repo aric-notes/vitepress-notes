@@ -8,10 +8,11 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview --port 4173 dist"
   },
   "devDependencies": {
     "@types/node": "^25.2.1",
+    "dotenv": "^17.2.4",
     "vitepress": "^1.6.4"
   }
 }

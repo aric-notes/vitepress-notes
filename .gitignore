@@ -27,3 +27,5 @@ docs/.vitepress/temp/
 
 # Claude
 .claude/*.local.json
+
+.gfl.config.local.yml
