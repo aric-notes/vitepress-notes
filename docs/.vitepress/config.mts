@@ -53,7 +53,7 @@ export default defineConfig({
             }
           }
         },
-        socialLinks: [{ icon: 'github', link: 'https://github.com/afei' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/afeiship' }],
         footer: {
           message: 'Released under the MIT License.',
           copyright: 'Copyright © 2019-present Aric'
@@ -107,7 +107,7 @@ export default defineConfig({
             }
           }
         },
-        socialLinks: [{ icon: 'github', link: 'https://github.com/afei' }],
+        socialLinks: [{ icon: 'github', link: 'https://github.com/afeiship' }],
         footer: {
           message: 'Released under the MIT License.',
           copyright: 'Copyright © 2019-present Aric'
