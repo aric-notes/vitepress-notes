@@ -43,7 +43,8 @@ export default defineConfig({
           ]
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,ico,png,svg}']
+          globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+          navigateFallback: null
         }
       })
     ]
@@ -70,7 +71,6 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/' },
           { text: '组件', link: '/posts/components/index.md' },
-          { text: 'Hooks', link: '/posts/hooks/index.md' },
           { text: 'Utils', link: '/posts/utils/index.md' },
           { text: '规范', link: '/posts/standard/index.md' },
           { text: '事故', link: '/posts/incidents/index.md' }
@@ -124,7 +124,6 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Components', link: '/en/posts/components/index.md' },
-          { text: 'Hooks', link: '/en/posts/hooks/index.md' },
           { text: 'Utils', link: '/en/posts/utils/index.md' },
           { text: 'Standard', link: '/en/posts/standard/index.md' },
           { text: 'Incidents', link: '/en/posts/incidents/index.md' }
