@@ -1,0 +1,16 @@
+{
+  "name": "@jswork/github",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vitepress notes.",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "2.0.0-alpha.16"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  }
+}
