@@ -5,6 +5,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]],
   title: 'Aric Notes',
   description: 'Personal Notes',
+  outDir: '../dist',
   locales: {
     root: {
       label: 'English',
