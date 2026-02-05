@@ -23,14 +23,6 @@ export const zhSidebar = {
       ]
     }
   ],
-  '/posts/hooks/': [
-    {
-      text: 'Hooks',
-      items: [
-        { text: '介绍', link: '/posts/hooks/index.md' }
-      ]
-    }
-  ],
   '/posts/utils/': [
     {
       text: 'Utils',
