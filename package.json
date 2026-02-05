@@ -1,16 +1,16 @@
 {
-  "name": "@jswork/github",
+  "name": "aric-notes",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Vitepress notes.",
+  "description": "Personal development notes powered by VitePress",
   "license": "MIT",
-  "devDependencies": {
-    "vitepress": "2.0.0-alpha.16"
-  },
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
   }
 }
