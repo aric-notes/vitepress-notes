@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { enSidebar, zhSidebar } from './sidebar/index'
 import dotenv from 'dotenv'
+import { fileURLToPath } from 'url'
+import path from 'path'
 
-// Load .env file from project root
-dotenv.config()
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const projectRoot = path.resolve(__dirname, '../..')
+dotenv.config({ path: path.resolve(projectRoot, '.env') })
 
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',

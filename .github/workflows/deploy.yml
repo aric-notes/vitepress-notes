@@ -47,8 +47,6 @@ jobs:
 
       - name: Build VitePress site
         run: pnpm build
-        env:
-          VITEPRESS_BASE: /vitepress-notes/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
