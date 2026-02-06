@@ -12,6 +12,7 @@ dotenv.config({ path: path.resolve(projectRoot, '.env') })
 
 export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
+  lastUpdated: true,
   head: [['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]],
   title: 'Aric Notes',
   description: 'Personal Notes',
