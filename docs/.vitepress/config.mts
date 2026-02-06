@@ -55,7 +55,8 @@ export default defineConfig({
           useTitleFromFileHeading: true,
           useTitleFromFrontmatter: true,
           hyphenToSpace: true,
-          excludePattern: ['README.md']
+          excludePattern: ['README.md'],
+          debugPrint: true
         }),
         search: {
           provider: 'local',
@@ -117,7 +118,8 @@ export default defineConfig({
           useTitleFromFileHeading: true,
           useTitleFromFrontmatter: true,
           hyphenToSpace: true,
-          excludePattern: ['README.md']
+          excludePattern: ['README.md'],
+          debugPrint: true
         }),
         search: {
           provider: 'local',
