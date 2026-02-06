@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { enSidebar, zhSidebar } from './sidebar/index'
+import { generateSidebar } from 'vitepress-sidebar'
 import dotenv from 'dotenv'
 import { fileURLToPath } from 'url'
 import path from 'path'
@@ -47,7 +47,16 @@ export default defineConfig({
           { text: '规范', link: '/posts/standard/index.md' },
           { text: '事故', link: '/posts/incidents/index.md' }
         ],
-        sidebar: zhSidebar,
+        sidebar: generateSidebar({
+          documentRootPath: '/docs',
+          scanStartPath: '/posts',
+          collapsed: false,
+          capitalizeFirst: true,
+          useTitleFromFileHeading: true,
+          useTitleFromFrontmatter: true,
+          hyphenToSpace: true,
+          excludePattern: ['README.md']
+        }),
         search: {
           provider: 'local',
           options: {
@@ -100,7 +109,16 @@ export default defineConfig({
           { text: 'Standard', link: '/en/posts/standard/index.md' },
           { text: 'Incidents', link: '/en/posts/incidents/index.md' }
         ],
-        sidebar: enSidebar,
+        sidebar: generateSidebar({
+          documentRootPath: '/docs/en',
+          scanStartPath: '/posts',
+          collapsed: false,
+          capitalizeFirst: true,
+          useTitleFromFileHeading: true,
+          useTitleFromFrontmatter: true,
+          hyphenToSpace: true,
+          excludePattern: ['README.md']
+        }),
         search: {
           provider: 'local',
           options: {
