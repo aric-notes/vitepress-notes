@@ -3,23 +3,23 @@ layout: home
 
 hero:
   name: 'Aric Notes'
-  text: '个人开发笔记'
+  text: 'Personal Development Notes'
   actions:
     - theme: brand
-      text: 开始使用
-      link: /zh/posts/standard/index.md
+      text: Get Started
+      link: /posts/standard/index.md
     - theme: alt
-      text: Github 主页
-      link: https://github.com/afei
+      text: Github
+      link: https://github.com/afeiship
 
 features:
   - icon: 🎣
     title: React Hooks
-    details: 丰富的自定义 Hooks 集合，涵盖状态管理、副作用、DOM 操作等常见场景
+    details: Rich collection of custom Hooks covering state management, side effects, DOM operations, and more
   - icon: 🛠️
-    title: 工具函数
-    details: 实用的 JavaScript 工具函数，包括字符串、对象、数组、时间等常用操作
+    title: Utility Functions
+    details: Practical JavaScript utility functions for strings, objects, arrays, dates, and common operations
   - icon: 📚
-    title: 开发规范
-    details: 项目开发规范和最佳实践，包括 React 编码规范、Git 工作流、GitHub 协作规范等
+    title: Development Standards
+    details: Project development standards and best practices, including React coding standards, Git workflows, and GitHub collaboration guidelines
 ---
